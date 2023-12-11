@@ -15,5 +15,9 @@ public class JavaProgram {
         Motorcycle moto = new Motorcycle("Kawazaki", "Ninja", 2013, 170, 2);
         moto.Describe(null);
         moto.aout(null);
+
+        car.Accelerate(null);
+        truck.Accelerate(null);
+        moto.Accelerate(null);
     }
 }

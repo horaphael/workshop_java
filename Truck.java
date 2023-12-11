@@ -10,4 +10,7 @@ public class Truck extends Vehicule {
     public void aout(String aout) {
         System.out.printf("I'm a Truck, I weight " +Weight+ " kg and I have " +Wheels+ " weels\n\n");
     }
+    public void Accelerate(String accelerate) {
+        System.out.printf("My " +Brand+ " goes like this : broooooaaaaaAAAAAAARRRR !\n");
+    }
 }

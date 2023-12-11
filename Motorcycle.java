@@ -8,6 +8,9 @@ public class Motorcycle extends Vehicule{
         System.out.printf("I'm a " +Brand+ " " +Model+ " made in " +Year+ "\n");
     }
     public void aout(String aout) {
-        System.out.printf("I'm a motorcycle, I weight " +Weight+ " kg and I have " +Wheels+ " weels\n");
+        System.out.printf("I'm a motorcycle, I weight " +Weight+ " kg and I have " +Wheels+ " weels\n\n");
+    }
+    public void Accelerate(String accelerate) {
+        System.out.printf("My " +Brand+ " goes like this : vrrrrRRRRRRRrrrrr !\n");
     }
 }

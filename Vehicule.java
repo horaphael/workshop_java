@@ -4,6 +4,7 @@ public class Vehicule {
     int Year;
     int Weight;
     int Wheels;
+    int Sound;
     public Vehicule(String brand, String model, int year) {
         Brand = brand;
         Model = model;
